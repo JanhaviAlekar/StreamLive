@@ -6,7 +6,7 @@ import { UserItem, UserItemSkeleton } from "./user-item";
 
 interface FollowingProps{
     data : (Follow & { following : User & {
-        stream : Stream | null;
+        stream : {isLive : boolean} | null;
     }})[];
 }
 export const Following = ({data} : FollowingProps) => {
