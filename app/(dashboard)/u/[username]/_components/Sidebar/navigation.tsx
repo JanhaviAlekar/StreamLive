@@ -31,8 +31,8 @@ export const Navigation = () => {
             icon: MessageSquare,
         },
         {
-            label : "Communtiy",
-            href : `/u/${user?.username}/communtiy`,
+            label : "Community",
+            href : `/u/${user?.username}/community`,
             icon: Users,
         }
     ];

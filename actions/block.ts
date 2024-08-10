@@ -4,7 +4,7 @@ import { revalidatePath } from "next/cache";
 import { RoomServiceClient } from "livekit-server-sdk";
 
 import { getSelf } from "@/lib/auth-service";
-import { blockUser, unBlockUser } from "@/lib/block-servie"
+import { blockUser, unBlockUser } from "@/lib/block-service"
 
 const roomService = new RoomServiceClient(
   process.env.LIVEKIT_API_URL!,

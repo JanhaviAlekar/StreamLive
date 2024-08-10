@@ -4,7 +4,7 @@ import { getUserByUsername } from "@/lib/user-service";
 import { isFollowingUser } from "@/lib/follow-service";
 
 import { Actions } from "./_components/actions";
-import { isBlockedByUser } from "@/lib/block-servie";
+import { isBlockedByUser } from "@/lib/block-service";
 
 interface UserPageProps {
   params: {
