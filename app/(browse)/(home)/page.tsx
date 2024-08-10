@@ -1,9 +1,13 @@
-"use-client"
+import { Suspense } from "react";
 
-export default function Home() {
+import { Results, ResultsSkeleton } from "./_components/results";
+
+export default function Page() {
   return (
-    <div className="flex flex-col gap-y-4">
-      <h1>dashboard</h1>
+    <div className="h-full p-8 max-w-screen-2xl mx-auto">
+      <Suspense fallback={<ResultsSkeleton />}>
+        <Results />
+      </Suspense>
     </div>
   );
-}
+};
