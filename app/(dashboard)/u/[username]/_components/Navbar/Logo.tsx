@@ -24,7 +24,7 @@ export const Logo = () =>{
             </div>
             <div className={cn("hidden lg:block")}>
                 <p className="text-xl font-semibold">GAMEHUB</p>
-                <p className="text-sm text-muted-foreground">Creator's dashboard</p>                
+                <p className="text-sm text-muted-foreground">Creator&apos;s dashboard</p>                
             </div>
          </div>
       </Link>
